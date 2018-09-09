@@ -1,7 +1,8 @@
 #unique-list {
     display: flex;
-    flex-wrap: wrap;
+flex-wrap: wrap;
     list-style-type: none;
+    
 }
 
 .unique{
@@ -11,9 +12,12 @@
     border-radius: 10%;
     border-color: #218380;
     background-color: rgb(143,45,86, 0.7);
-    max-width: 50%;
+    max-width: 38%;
+    min-width: 38%;
+    margin: 5%;
 }
 h3, h4{
+    word-wrap: break-word;
     text-align: center;
     margin: 0.5em;
     color: #FFBC42;
@@ -44,7 +48,7 @@ button {
 
 body{
     background-image: url("images/borisnatasha.png");
-    background-position: center;
+    background-position-x: center;
     background-size: 50%;
     background-repeat: no-repeat;
     background-color: black;
