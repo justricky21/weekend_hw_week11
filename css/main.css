@@ -1,0 +1,41 @@
+#unique-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.unique{
+    margin: 0,5rem;
+    padding-right: 0.5em;
+    border: 1px solid;
+    border-radius: 10%;
+    border-color: #218380;
+    background-color: rgb(143,45,86, 0.7);
+
+}
+h3, h4{
+    text-align: center;
+    margin: 0.5em;
+    color: #FFBC42;
+}
+
+p {
+    text-align: justify;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    color: snow;
+}
+body{
+    margin: auto;
+    max-width: 50%;
+}
+
+body{
+    background-image: url("images/borisnatasha.png");
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: #FFBC42;
+    font-family: cursive;
+}

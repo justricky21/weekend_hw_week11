@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="css/images/Boris.png">
+    <script src="js/app.js"></script>
+    <title>Uniques</title>
+</head>
+<body>
+
+    <h2>Add new Unique</h2>
+    <form id="new-unique-form" action="">
+        <label for="name">Unique name:</label>
+        <input type="text" id="name" required>
+
+        <select name="branch" id="branch">
+            <option disabled selected>Branch</option>
+            <option value="Dungeon">Dungeon</option>
+            <option value="Swamp">Swamp</option>
+            <option value="Shoals">Shoals</option>
+            <option value="Snake Pit">Snake Pit</option>
+            <option value="Spider's Nest">Spider's Nest</option>
+            <option value="Slime Pits">Slime Pits</option>
+            <option value="Vaults">Vaults</option>
+        </select>
+
+        <label for="power">Unique's power:</label>
+        <input type="text" id="power">
+
+        <button type="submit" id="submit-unique">Submit unique</button>
+
+    </form>
+
+    <button id="clear-all">Clear list</button>
+
+    <h1>Boris' big list of uniques</h1>
+    
+    <div id="unique-list">
+        <li class="unique">
+            <h3>Boris</h3>
+            <h4>Vaults</h4>
+            <p>Reappears later in the dungeon.</p>
+        </li>
+        <li class="unique">
+            <h3>The Royal Jelly</h3>
+            <h4>Slime Pits</h4>
+            <p>Divides into powerful slimes when it takes damage.</p>
+        </li>
+    </div>
+</body>
+</html>
